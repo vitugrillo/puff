@@ -1,75 +1,75 @@
 /*GLOBAL*/
 * {
-    margin: 0;
-    padding: 0;
-  }
-  body {
-    background-color: #cdc9c4;
-    font-family: "Nunito Sans"; font-weight:bold;
-  }
-  /*LISTA*/
-  ul {
-    list-style: none;
-  }
-  /*FONTS*/
-  h1, h2, h3 {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  h2 {
-    border-radius: 10px;
-    border: 3px groove black;
-    filter: blur(0.6px);
-  }
-  .description {
-    font-family: "Open Sans", serif;
-  }
-  /*HEADER*/
-  header {
-    padding: 20px 0;
-    text-align: center;
-  }
-  header,
-  section {
-    max-width: 300px;
-    margin: 0 auto;
-  }
-  header h1 {
-    margin-bottom: 4px;
-    font-size: 60px;
-  
-  }
-  header h1 span {
-    color: rgb(0, 0, 0);
-    -webkit-text-stroke-width: 6.56px;
-    -webkit-text-stroke-color: #000000;
-    filter: blur(0.7px);
-  }
-  /*SECTION*/
-  section {
-    margin-bottom: 24px;
-  }
-  section h2 {
-    background-color: rgb(112, 43, 210);
-    padding: 8px 16px;
-    text-align: center;
-    margin-bottom: 24px;
-    font-size: 32px;
-  }
-  ul li {
-    margin-bottom: 16px;
-  }
-  li .details {
-    max-width: 299px;
-  }
-  .details h3 {
-    font-size: 32px;
-  }
-  .info {
-    text-align: center;
-  }
-  .link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #cdc9c4;
+  font-family: "Futura Std Condensed"; font-weight:bold;
+}
+/*LISTA*/
+ul {
+  list-style: none;
+}
+/*FONTS*/
+h1, h2, h3 {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h2 {
+  border-radius: 10px;
+  border: 3px groove black;
+  filter: blur(0.6px);
+}
+.description {
+  font-family: "Open Sans", serif;
+}
+/*HEADER*/
+header {
+  padding: 20px 0;
+  text-align: center;
+}
+header,
+section {
+  max-width: 300px;
+  margin: 0 auto;
+}
+header h1 {
+  margin-bottom: 4px;
+  font-size: 60px;
+
+}
+header h1 span {
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke-width: 6.56px;
+  -webkit-text-stroke-color: #000000;
+  filter: blur(0.7px);
+}
+/*SECTION*/
+section {
+  margin-bottom: 24px;
+}
+section h2 {
+  background-color: rgb(112, 43, 210);
+  padding: 8px 16px;
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 32px;
+}
+ul li {
+  margin-bottom: 16px;
+}
+li .details {
+  max-width: 299px;
+}
+.details h3 {
+  font-size: 32px;
+}
+.info {
+  text-align: center;
+}
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
